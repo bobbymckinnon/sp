@@ -12,3 +12,4 @@ sixpack/static/gen/sixpack.css
 .webassets-cache
 .vfenv
 .idea
+.DS_Store
