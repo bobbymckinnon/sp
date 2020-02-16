@@ -1,0 +1,14 @@
+*.pyc
+*~
+*#*
+*.egg
+*.egg-info
+*.swp
+build
+dist
+pkg
+sixpack/static/gen/sixpack.js
+sixpack/static/gen/sixpack.css
+.webassets-cache
+.vfenv
+.idea

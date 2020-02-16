@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+
+import os
+import sys
+
+from sixpack.web import app
+
+sys.path.append("..")
+
+port = int(os.environ.get('SIXPACK_WEB_PORT', 5001))
+debug = 'SIXPACK_DEBUG' in os.environ
+
+app.run(host='0.0.0.0', port=port, debug=debug)
